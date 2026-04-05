@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/fav2.png">
+    <link rel="apple-touch-icon" href="img/fav2.png">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Omar Alomory | Portfolio</title>
+
+    <!-- Bootstrap & Font Awesome -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body data-theme="light">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+                <img src="img/fav2.png" alt="Omar Logo">
+                <span class="fw-bold">Alomory</span>
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li><a class="nav-link" href="#about">About</a></li>
+                    <li><a class="nav-link" href="#experience">Experience</a></li>
+                    <li><a class="nav-link" href="#services">Services</a></li>
+                    <li><a class="nav-link" href="#projects">Projects</a></li>
+                    <li><a class="nav-link" href="#skills">Skills</a></li>
+                    <li><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="ms-3"><button id="themeToggle" class="btn btn-warning btn-sm">Dark</button></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div>
+            <h1 class="reveal">Building Meaningful Digital Products</h1>
+            <p class="reveal">Mobile • Web • Backend</p>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="reveal container">
+        <h2>About Me</h2>
+        <p>I’m Omar Alomory, a software developer focused on building high-performance mobile and web applications. I
+            specialize in Flutter, Android, and full-stack development, with a focus on creating smooth, scalable, and
+            user-centered digital experiences.</p>
+        <p>I enjoy transforming ideas into functional products — from backend architecture to intuitive user interfaces.
+        </p>
+    </section>
+
+    <!-- EXPERIENCE & CERTIFICATIONS -->
+    <section id="experience" class="reveal container">
+        <h2>Experience & Education</h2>
+        <div class="timeline">
+            <div class="item">
+                <h5>🎓 Bachelor of Computer Science (Mobile Computing)</h5>
+                <p>University Malaysia Terengganu (UMT)</p>
+                <span>2021 – 2025</span>
+            </div>
+            <div class="item">
+                <h5>💼 Mobile App & Full-Stack (.NET) Intern</h5>
+                <p>Buttonwood SmartLogistics</p>
+                <span>2024 – 2025</span>
+            </div>
+        </div>
+        <div class="mt-5">
+            <h3>Certifications</h3>
+            <ul class="list-unstyled">
+                <li>✔ Android Certified Associate Developer — 2024</li>
+                <li>✔ SPSS Workshop — 2022</li>
+                <li>✔ ICDL — 2019</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="reveal container">
+        <h2>Services</h2>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <h5>Mobile Apps</h5>
+                <p>Flutter & Android apps with smooth UX</p>
+            </div>
+            <div class="col-md-4">
+                <h5>Web Apps</h5>
+                <p>Responsive and modern web systems</p>
+            </div>
+            <div class="col-md-4">
+                <h5>Databases</h5>
+                <p>Secure and scalable data handling</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="reveal container">
+        <h2 class="text-center mb-5">Projects</h2>
+        <div class="row g-4">
+
+            <!-- Project Monitoring & Tracking App -->
+            <div class="col-lg-4 col-md-6">
+                <div class="portfolio-item reveal">
+                    <div class="img-container">
+                        <img src="img/project-tracker.png" alt="Project Tracker">
+                    </div>
+                    <div class="overlay">
+                        <h5>Project Monitoring App</h5>
+                        <p>Flutter • Firebase • Android • iOS</p>
+                        <a class="btn btn-sm btn-light disabled" href="#" title="Live demo coming soon">Live</a>
+                        <a href="https://github.com/Alomory/Project-Monitoring-and-Tracking-app-Flutter" target="_blank"
+                            class="btn btn-sm btn-outline-light">Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Lost and Found App -->
+            <div class="col-lg-4 col-md-6">
+                <div class="portfolio-item reveal">
+                    <div class="img-container">
+                        <img src="img/lost-found.png" alt="Lost & Found">
+                    </div>
+                    <div class="overlay">
+                        <h5>Lost & Found App</h5>
+                        <p>Flutter • Android • iOS</p>
+                        <a class="btn btn-sm btn-light disabled" href="#" title="Live demo coming soon">Live</a>
+                        <a href="https://github.com/Alomory/lost_and_found_app" target="_blank"
+                            class="btn btn-sm btn-outline-light">Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quiz App -->
+            <div class="col-lg-4 col-md-6">
+                <div class="portfolio-item reveal">
+                    <div class="img-container">
+                        <img src="img/quiz-app.png" alt="Quiz App">
+                    </div>
+                    <div class="overlay">
+                        <h5>Quiz App</h5>
+                        <p>Kotlin • Android</p>
+                        <a class="btn btn-sm btn-light disabled" href="#" title="Live demo coming soon">Live</a>
+                        <a href="https://github.com/Alomory/quiz-app" target="_blank"
+                            class="btn btn-sm btn-outline-light">Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Exam Room Reservation System -->
+            <div class="col-lg-4 col-md-6 hidden">
+                <div class="portfolio-item reveal">
+                    <div class="img-container">
+                        <img src="img/exam-room.png" alt="Exam Room Reservation">
+                    </div>
+                    <div class="overlay">
+                        <h5>Exam Room Reservation</h5>
+                        <p>Java • Servlets • HTML • CSS</p>
+                        <!-- <a href="#" target="_blank" class="btn btn-sm btn-light">Live</a> -->
+                        <a href="https://github.com/citawarisan/btmrrs" target="_blank"
+                            class="btn btn-sm btn-outline-light">Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Universal Unit Converter -->
+            <div class="col-lg-4 col-md-6 hidden">
+                <div class="portfolio-item reveal">
+                    <div class="img-container">
+                        <img src="img/unit-converter.png" alt="Universal Unit Converter">
+                    </div>
+                    <div class="overlay">
+                        <h5>Universal Unit Converter</h5>
+                        <p>HTML • CSS • JS • Cordova</p>
+                        <!-- <a href="#" target="_blank" class="btn btn-sm btn-light">Live</a> -->
+                        <a href="https://github.com/Alomory/Alomory-Educational/tree/main/s2223II/Front-End%20Programming/UniversalCalculator"
+                            target="_blank" class="btn btn-sm btn-outline-light">Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tourist Travel Guide -->
+            <div class="col-lg-4 col-md-6 hidden">
+                <div class="portfolio-item reveal">
+                    <div class="img-container">
+                        <img src="img/travel-guide.png" alt="Tourist Travel Guide">
+                    </div>
+                    <div class="overlay">
+                        <h5>Tourist Travel Guide</h5>
+                        <p>HTML • CSS • JS</p>
+                        <!-- <a href="#" target="_blank" class="btn btn-sm btn-light">Live</a> -->
+                        <a href="https://github.com/Alomory/Alomory-Educational/tree/main/s2122I/Web-Based%20Interface%20Design/Group%20Project"
+                            target="_blank" class="btn btn-sm btn-outline-light">Code</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- SKILLS -->
+    <section id="skills" class="reveal container">
+        <h2>Tech Stack</h2>
+        <p>Flutter • Kotlin • Java • .NET • Firebase • MySQL • JavaScript • HTML • CSS</p>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="reveal container">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:omar.i.alomory@gmail.com">omar.i.alomory@gmail.com</a></p>
+        <!-- <p>Phone: +967 774 737 683</p> -->
+        <p>Call me:</p>
+        <a href="tel:+967774737683">+967 774 737 683</a><br>
+        <a href="https://wa.me/60182850579" target="_blank">+6 018 285 0579 (WhatsApp)</a>
+        <br>
+        <br>
+        <form class="mt-4 hidden">
+            <div class="row g-3">
+                <div class="col-md-6"><input type="text" class="form-control" placeholder="First Name"></div>
+                <div class="col-md-6"><input type="text" class="form-control" placeholder="Last Name"></div>
+                <div class="col-md-12"><input type="email" class="form-control" placeholder="Email"></div>
+                <div class="col-md-12"><textarea class="form-control" placeholder="Message" rows="4"></textarea></div>
+                <div class="col-md-12"><button type="submit" class="btn btn-warning">Submit</button></div>
+            </div>
+        </form>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="social">
+            <a href="https://github.com/Alomory" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/omar-alomory" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://instagram.com/komar112011" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://stackoverflow.com/users/19939379" target="_blank"><i class="fab fa-stack-overflow"></i></a>
+            <a href="https://codepen.io/alomory" target="_blank"><i class="fab fa-codepen"></i></a>
+
+        </div>
+        <p>© 2026 Omar Alomory</p>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
